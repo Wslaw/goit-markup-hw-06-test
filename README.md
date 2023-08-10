@@ -1,3 +1,7 @@
-# goit-markup-hw-03
+# goit-markup-hw-06-test
 
-Поставиив  fill="curentcolor"
+After 
+<!-- mobil -->
+stoit otmenennaya komanda  
+или добавленная
+<!-- end -->

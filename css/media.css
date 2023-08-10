@@ -1,0 +1,44 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+
+  }
+
+  .features {
+/* align-items: start; */
+gap: 24px;
+  } 
+  .hero-feature {
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 8px;
+    
+  }
+
+  
+.hero-text {
+    max-width: 356px;
+      /* text-align: justify; */
+  align-self: stretch;
+}
+
+  .features-item {
+  
+  flex-basis: calc((100% - 24px) / 2);
+  
+ 
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1156px;
+
+  }
+}

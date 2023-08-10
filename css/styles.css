@@ -94,6 +94,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
     margin: 0 auto;
+    outline: 2px solid #0000f5;
   }
 
 .visually-hidden {
@@ -377,25 +378,32 @@ body {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 /* ---------------------------------------------------------------------- */
 /* -------------------Section  feature--------------S-2------------------ */
 /* ---------------------------------------------------------------------- */
+
+
+
+
+
 .feature {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .hero-feature {
   color: var(--navyblue);
-  font-size: 20px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;  
+  margin: 0 auto;
 }
 
 .list .features {
@@ -410,24 +418,25 @@ body {
 
 .features {
   display: flex;
-  width: 1128px;
-  height: 104px;
-  flex-shrink: 0;
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
+  
+  flex-wrap: wrap;
+  /* flex-shrink: 0;
+  flex-direction: column;
+  align-items: center; */
+  gap: 72px;
+  /* margin: 0 auto; */
+   /* width: 100%; */
+
 }
 
 .features-item {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  max-width: 264px;
   width: 100%;
-  width: calc((100% - 3 * 24px) / 4);
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
+  /* width: calc((100% - 3 * 24px) / 4); */
+ 
+  /* align-items: center;
+  flex-shrink: 0; */
 }
 
 .features-icon {
@@ -444,6 +453,7 @@ body {
   width: 100%;
   height: 112px;
   gap: 8px;
+  display: none;
 }
 /* ------------------------------------------------------------------- */
 /* -------------------Section skills---------------------------------- */
@@ -1214,3 +1224,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+
