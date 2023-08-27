@@ -41,7 +41,7 @@ gap: 72px 24px;
   .container {
     max-width: 1158px;
   }
-  
+
   .features {
 /* display: flex; */
 }
@@ -71,4 +71,10 @@ gap: 72px 24px;
     flex-shrink: 0;
 }
 
+.skills {
+  display: flex;
 }
+
+
+}
+
